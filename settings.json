@@ -1,0 +1,53 @@
+{
+  // As suggested in readme.md 
+  "editor.formatOnSave": false,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  // Visual settings
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.renderLineHighlight": "line",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#373333"
+  },
+  // Vim settings
+  "vim.useSystemClipboard": true,
+  "vim.smartcase": true,
+  "vim.ignorecase": true,
+  "vim.hlsearch": false,
+  "vim.incsearch": true,
+  "vim.leader": "<space>",
+  "vim.foldfix": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "c"
+      ],
+      "commands": [
+        "workbench.action.openSettingsJson"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "b"
+      ],
+      "commands": [
+        "editor.debug.action.toggleBreakpoint"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+  ],
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Atom One Dark",
+  "git.autofetch": true,
+}
